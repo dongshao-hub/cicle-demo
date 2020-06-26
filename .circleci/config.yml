@@ -12,8 +12,8 @@ jobs:
             - 'ce:2c:9f:cb:87:9f:50:ad:8e:70:cf:f4:e2:d1:dd:ab'
       - checkout
       - run:
-        name: Install
-        command: yarn install
+          name: Install
+          command: yarn install
       - run:
-        name: Build
-        command: yarn build
+          name: Build
+          command: yarn build
